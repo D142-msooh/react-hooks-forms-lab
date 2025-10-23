@@ -1,0 +1,109 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: brown;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: pink;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+/* Filter styles */
+.Filter input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid blueviolet;
+  font-size: 16px;
+}
+
+/* Shopping list items */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: burlywood;
+  transition: background-color 0.2s ease;
+}
+
+li:hover {
+  background-color: beige;
+}
+
+/* ItemForm styles */
+.ItemForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.ItemForm label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ItemForm input,
+.ItemForm select {
+  padding: 8px 12px;
+  margin-top: 4px;
+  border-radius: 6px;
+  border: 1px solid burlywood;
+  font-size: 14px;
+}
+
+.ItemForm button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: pink;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.ItemForm button:hover {
+  background-color: #45a049;
+}
+
+/* Item category badge */
+.item-category {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.Produce {
+  background-color: #4caf50;
+}
+
+.Dairy {
+  background-color: #2196f3;
+}
+
+.Bakery {
+  background-color: #ff9800;
+}
+
+.Meat {
+  background-color: #f44336;
+}
